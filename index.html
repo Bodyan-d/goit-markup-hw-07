@@ -410,10 +410,10 @@
         </div>
       </section>
       <!--is-hidden-->
-      <div class="backdrop is-hidden" data-modal>
+      <div class="modal-backdrop is-hidden" data-modal>
         <div class="modal">
           <button class="close-button" data-modal-close>
-            <svg class="close-icon">
+            <svg class="close-button-icon">
               <use href="./images/sprite-all/svg-sprite.svg#icon-close"></use>
             </svg>
           </button>
@@ -421,10 +421,10 @@
           <!-- Modal-form-->
           <form name="signup-form" autocomplete="off">
             <label class="form-field">
-              <span class="form-label">Имя</span>
-              <div class="input-cont">
+              <span class="form-field-label">Имя</span>
+              <div class="form-field-cont">
                 <input
-                  class="form-input"
+                  class="form-field-input"
                   type="text"
                   name="email"
                   placeholder=" "
@@ -437,10 +437,10 @@
               </div>
             </label>
             <label class="form-field">
-              <span class="form-label">Телефон</span>
-              <div class="input-cont">
+              <span class="form-field-label">Телефон</span>
+              <div class="form-field-cont">
                 <input
-                  class="form-input"
+                  class="form-field-input"
                   type="tel"
                   name="email"
                   placeholder=" "
@@ -453,10 +453,10 @@
               </div>
             </label>
             <label class="form-field">
-              <span class="form-label">Почта</span>
-              <div class="input-cont">
+              <span class="form-field-label">Почта</span>
+              <div class="form-field-cont">
                 <input
-                  class="form-input"
+                  class="form-field-input"
                   type="email"
                   name="email"
                   placeholder=" "
@@ -469,7 +469,7 @@
               </div>
             </label>
             <label class="form-field">
-              <span class="form-label">Комментарий</span>
+              <span class="form-field-label">Комментарий</span>
               <textarea
                 class="form-feedback"
                 name="feedback"
@@ -477,7 +477,7 @@
               ></textarea>
             </label>
             <label class="form-field checkbox-field">
-              <input class="form-checkbox visually-hiden" type="checkbox" />
+              <input class="checkbox visually-hiden" type="checkbox" />
               <!--
                         <svg class="checkbox-icon">
                             <use href="./images/sprite-all/svg-sprite.svg#icon-check"></use>
@@ -485,12 +485,13 @@
                         -->
               <span class="checkbox-icon"></span>
               <span class="checkbox-label"
-                >Соглашаюсь с рассылкой и принимаю<a class="label-link" href=""
+                >Соглашаюсь с рассылкой и принимаю<a
+                  class="checkbox-link"
+                  href=""
                   >Условия договора</a
                 ></span
               >
             </label>
-
             <button class="form-submit" type="submit">Отправить</button>
           </form>
         </div>
