@@ -58,8 +58,8 @@
     transition: transform 250ms linear;
   }
 
-  &-link:hover .img-des,
-  &-link:focus .img-des {
+  &-link:hover &-img-des,
+  &-link:focus &-img-des {
     transform: translateY(0);
   }
 

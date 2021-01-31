@@ -1144,8 +1144,8 @@ li {
   transition: transform 250ms linear, -webkit-transform 250ms linear;
 }
 
-.portfolio-link:hover .img-des,
-.portfolio-link:focus .img-des {
+.portfolio-link:hover .portfolio-img-des,
+.portfolio-link:focus .portfolio-img-des {
   -webkit-transform: translateY(0);
           transform: translateY(0);
 }
