@@ -1022,12 +1022,6 @@ textarea::placeholder {
   justify-content: center;
   margin-bottom: 50px;
 }
-
-.visually-hiden,
-.visually-hiden {
-  display: none;
-}
-
 /* portfolio */
 
 .header-portfolio {
